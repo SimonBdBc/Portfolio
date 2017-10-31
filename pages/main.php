@@ -12,13 +12,21 @@
 
     </div>
     <div class="half-size min-size-small">
-      <h2>Mes compétences :</h2>
+      <h2>Mes compétences Web Dev :</h2>
       <ul>
-      <li>Connaissance des Bonnes Pratiques du Web</li>
       <li>Création et Intégration avec HTML5 et CSS3</li>
       <li>Utilisation d'API avec Requetes AJAX et Librairie jQuery</li>
       <li>Responsive Design, UX, Mobile First et Web Apps</li>
-      <li>Collaboration en utilisant Github</li>
+      <li>Collaboration avec Github</li>
+      <li>Utilisation de Virtualbox et Vagrant</li>
+      <li>Php</li>
+
+      </ul>
+      <h2>Autres :</h2>
+      <ul>
+      <li>Bonne Compréhension de l'Anglais</li>
+      <li>Bonnes Connaissances en Photographie</li>
+      <li>Très Bonnes Connaissances en Eléctricité et Automatismes</li>
       </ul>
     </div>
   </section>
@@ -27,8 +35,8 @@
       <h2>Mon parcours professionnel Atypique :</h2>
       <ul>
       <li>Formation Développeur d'Applications Web (in progress)</li>
-      <li>Militaire - Maître Chien</li>
-      <li>Formation Educateur et Comportementaliste Canin</li>
+      <li>Militaire - Fusier Commando et Maître Chien dans l'Armée de l'Air</li>
+      <li>Educateur et Comportementaliste Canin</li>
       <li>Electicien dans le Batiment</li>
       <li>BAC Pro Electrotechnique</li>
     </ul>
