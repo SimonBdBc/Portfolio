@@ -1,13 +1,13 @@
 <section id="part1" class="flex-container flex-wrap section-container">
-  <div class="flex-container half-size min-size-small img-center">
-    <i class="icon-git"></i>
-    <i class="icon-bootstrap"></i>
-      <i class="icon-jquery"></i>
-      <i class="icon-script-alt"></i>
-      <i class="icon-php-alt"></i>
-      <i class="icon-javascript-alt"></i>
-      <i class="icon-html5-alt"></i>
-      <i class="icon-css3-alt"></i>
+  <div class="flex-container flex-wrap half-size min-size-small img-center">
+    <i class="fizz icon-git"></i>
+    <i class="fizz icon-bootstrap"></i>
+    <i class="fizz icon-jquery"></i>
+    <i class="fizz icon-script-alt"></i>
+    <i class="fizz icon-php-alt"></i>
+    <i class="fizz icon-javascript-alt"></i>
+    <i class="fizz icon-html5-alt"></i>
+    <i class="fizz icon-css3-alt"></i>
 
   </div>
   <div class="half-size min-size-small">
