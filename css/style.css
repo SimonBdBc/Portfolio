@@ -23,6 +23,8 @@ h1{
 }
 h2{
   font-family: 'Amatic SC', cursive;
+  text-align: center;
+  margin-top: 0;
 }
 h5{
   font-family: 'Open Sans', cursive;
@@ -122,9 +124,9 @@ h4{
 .fixe{
   position: fixed;
 }
-.fizz{
-  font-size: 100px;
-  margin: 5px;
+.logo{
+  height: 7vh;
+  margin: 8px;
 }
 .flex-container-ext{
   display: flex;
@@ -138,6 +140,9 @@ h4{
 }
 .flex-wrap{
   flex-wrap: wrap;
+}
+.flex-row{
+  flex-direction: row;
 }
 .flex-wrap-reverse{
   flex-wrap: wrap-reverse;
@@ -165,11 +170,19 @@ h4{
   overflow: hidden;
   border-radius: 60px;
 }
+.item-center{
+  display: flex;
+  justify-content: center;
+}
 .a-no-style{
   text-decoration: none;
 }
 .list-no-style{
   list-style: none;
+}
+.list-no-style .check{
+  list-style: none;
+  padding-left: 15px;
 }
 .name{
   padding-left: 2%;
@@ -182,11 +195,15 @@ h4{
   padding-left: 10%;
   padding-right: 10%;
 }
+.titre{
+  text-align: center;
+  margin-left: -120px;
+}
 .half-size{
   width: 50%;
 }
 .min-size-small{
-  min-width: 300px;
+  min-width: 280px;
 }
 .fa-check{
   margin-left: -30px;
@@ -195,60 +212,25 @@ h4{
   color: #fff;
   margin-right: 30px;
 }
-@media screen and (max-width :800px){
+@media screen and (max-width :1000px){
+  body{
+    font-size: 15px;
+  }
   .flex-container{
     padding-top: 1%;
     padding-bottom: 1%;
   }
   .section-container{
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
-/*  #mySidenav a {
-    right: -120px;
-    padding: 20px 40px;
-    width: 120px;
-    font-size: 25px;
-    font-weight: bold;
+  h1{
+    margin: -40px 0 0 0;
   }
-  #accueil {
-    top: 30px;
-    border-left-width: 5px;
-    border-left-style: solid;
+}
+@media screen and (max-height: 600px){
+  body{
+    font-size: 15px;
+
   }
-  #skill {
-    top: 120px;
-    border-left-width: 5px;
-    border-left-style: solid;
-  }
-  #xp {
-    top: 210px;
-    border-left-width: 5px;
-    border-left-style: solid;
-  }
-  #contact {
-    top: 300px;
-    border-left-width: 5px;
-    border-left-style: solid;
-  }
-  .fa-home{
-    margin-left: -15px;
-    padding-right: 15px;
-  }
-  .fa-hand-spock-o{
-    margin-left: -15px;
-    padding-right: 15px;
-  }
-  .fa-id-badge{
-    margin-left: -15px;
-    padding-right: 15px;
-  }
-  .fa-envelope{
-    margin-left: -15px;
-    padding-right: 15px;
-  }
-  */
-    h1{
-      margin: -40px 0 0 0;
-    }
 }
