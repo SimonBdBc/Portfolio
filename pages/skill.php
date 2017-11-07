@@ -25,7 +25,7 @@
         </ul>
       </div>
     </div>
-      <div class="flex-container flex-wrap flex-row">
+      <div class="flex-container flex-wrap flex-row min-size-small">
         <ul class="list-no-style check">
           <li class="titre"><h2>Autres :</h2></li>
           <li><i class="fa fa-check" aria-hidden="true"></i> Très Bonne Compréhension de l'Anglais</li>

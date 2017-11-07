@@ -8,6 +8,13 @@ header{
   background-color: transparent;
   font-size: 20px;
 }
+.name{
+  padding-left: 2%;
+  margin: 0;
+  font-family: 'Allura', cursive;
+  font-size: 60px;
+  color: #000;
+}
 h1{
   font-family: 'Amatic SC', cursive;
   display: flex;
@@ -67,25 +74,25 @@ section{
 #accueil {
   top: 30px;
   background-color: #FE9A2E;
-  border-left-width: 4px;
+  border-left-width: 3px;
   border-left-style: solid;
 }
 #skill {
   top: 90px;
   background-color: #FE9A2E;
-  border-left-width: 5px;
+  border-left-width: 3px;
   border-left-style: solid;
 }
 #xp {
   top: 150px;
   background-color: #FE9A2E;
-  border-left-width: 5px;
+  border-left-width: 3px;
   border-left-style: solid;
 }
 #contact {
   top: 210px;
   background-color: #FE9A2E;
-  border-left-width: 5px;
+  border-left-width: 3px;
   border-left-style: solid;
 }
 h4{
@@ -93,33 +100,33 @@ h4{
   margin-top: 0;
   margin-bottom: 0;
 }
-.fa-home{
+.fa-angle-double-up{
   float: left;
   padding: 6px 0;
   margin-right: 0px;
-  margin-left: -26px;
-  padding-right: 15px;
+  margin-left: -20px;
+  padding-right: 0px;
 }
 .fa-hand-spock-o{
   float: left;
   padding: 6px 0;
   margin-right: 0px;
-  margin-left: -23px;
-  padding-right: 15px;
+  margin-left: -21px;
+  padding-right: 0px;
 }
-.fa-id-badge{
+.fa-user-o{
   float: left;
   padding: 6px 0;
   margin-right: 0px;
-  margin-left: -19px;
-  padding-right: 15px;
+  margin-left: -20px;
+  padding-right: 0px;
 }
-.fa-envelope{
+.fa-envelope-o{
   float: left;
   padding: 6px 0;
   margin-right: 0px;
-  margin-left: -26px;
-  padding-right: 15px;
+  margin-left: -21px;
+  padding-right: 0px;
 }
 .fixe{
   position: fixed;
@@ -163,7 +170,6 @@ h4{
   overflow: hidden;
   border-radius: 60px;
   width: 40vh;
-  height: 40vh;
 }
 .img2{
   height: 70vh;
@@ -184,13 +190,7 @@ h4{
   list-style: none;
   padding-left: 15px;
 }
-.name{
-  padding-left: 2%;
-  margin: 0;
-  font-family: 'Allura', cursive;
-  font-size: 60px;
-  color: #000;
-}
+
 .section-container{
   padding-left: 10%;
   padding-right: 10%;
@@ -212,6 +212,14 @@ h4{
   color: #fff;
   margin-right: 30px;
 }
+.fa-github-square:hover{
+  color: #FE9A2E;
+  text-shadow: 2px 2px #000;
+}
+.fa-linkedin-square:hover{
+  color: #FE9A2E;
+  text-shadow: 2px 2px #000;
+}
 @media screen and (max-width :1000px){
   body{
     font-size: 15px;
@@ -227,10 +235,129 @@ h4{
   h1{
     margin: -40px 0 0 0;
   }
+  .logo{
+    height: 3vh;
+    margin: 8px;
+  }
+  .half-size{
+    width: 50%;
+  }
+  .min-size-small{
+    min-width: 0;
+  }
 }
-@media screen and (max-height: 600px){
+@media screen and (max-height: 700px){
   body{
-    font-size: 15px;
+    font-size: 14px;
+  }
+  .name{
+    padding-left: 2%;
+    margin: 0;
+    font-family: 'Allura', cursive;
+    font-size: 40px;
+    color: #000;
+  }
+  section{
+    margin-right: 16px;
 
+  }
+  #mySidenav a {
+    position: absolute;
+    right: -130px;
+    transition: 0.5s;
+    padding: 10px 20px 10px 40px;
+    width: 130px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    border-radius: 5px 0 0 5px;
+    color: #FE9A2E;
+  }
+  #mySidenav a:hover {
+    right: 0;
+
+  }
+  #accueil {
+    top: 5px;
+    background-color: transparent;
+    border-left-width: 0;
+    border-left-style: solid;
+  }
+  #skill {
+    top: 35px;
+    background-color: transparent;
+    border-left-width: 0;
+    border-left-style: solid;
+  }
+  #xp {
+    top: 70px;
+    background-color: transparent;
+    border-left-width: 0;
+    border-left-style: solid;
+  }
+  #contact {
+    top: 105px;
+    background-color: transparent;
+    border-left-width: 0;
+    border-left-style: solid;
+  }
+  .fa-angle-double-up{
+    float: left;
+    padding: 0;
+    margin-right: 0px;
+    margin-left: -10px;
+    padding-right: 0px;
+  }
+  .fa-hand-spock-o{
+    float: left;
+    padding: 0;
+    margin-right: 0px;
+    margin-left: -10px;
+    padding-right: 0;
+  }
+  .fa-user-o{
+    float: left;
+    padding: 0;
+    margin-right: 0px;
+    margin-left: -10px;
+    padding-right: 0;
+  }
+  .fa-envelope-o{
+    float: left;
+    padding: 0;
+    margin-right: 0px;
+    margin-left: -10px;
+    padding-right: 0;
+  }
+  h1{
+    font-family: 'Amatic SC', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    margin: -30px 15px 0 0;
+    width: 100%;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    height: 95vh;
+  }
+  .logo{
+    height: 3vh;
+    margin: 8px;
+  }
+  h2{
+    font-family: 'Amatic SC', cursive;
+    text-align: left;
+    margin-top: 0;
+    font-size: 20px;
+  }
+  h5{
+    font-family: 'Open Sans', cursive;
+    font-size: 15px;
+  }
+  small{
+    color: #fff;
+    font-size: 10px;
   }
 }
