@@ -155,13 +155,13 @@ h4{
   flex-wrap: wrap-reverse;
 }
 .image-back, nav{
-  background:url("../image/dsc01.jpg")no-repeat center center;
+  background:url("../image/dsc001.jpg")no-repeat center center;
   background-size:cover;
   background-attachment: fixed;
   display: block;
 }
 .image-back-bottom{
-  background:url("../image/dsc01.jpg")no-repeat center center;
+  background:url("../image/dsc001.jpg")no-repeat center center;
   background-size:cover;
   background-attachment: fixed;
   display: block;
