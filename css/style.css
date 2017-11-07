@@ -243,7 +243,7 @@ h4{
     width: 50%;
   }
   .min-size-small{
-    min-width: 0;
+    min-width: 280px;
   }
 }
 @media screen and (max-height: 700px){
