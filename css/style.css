@@ -232,8 +232,11 @@ h4{
   padding: 10px 0;
   border-radius: 50px;
 }
-.link-projet:hover, .titre-projet:hover{
+.link-projet:hover{
   box-shadow: 5px 5px 5px 5px #000;
+}
+.titre-projet:hover{
+  box-shadow: 5px 5px 5px 5px #000 inset;
 }
 .fa-check{
   margin-left: -30px;
