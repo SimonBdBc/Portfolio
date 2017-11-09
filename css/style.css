@@ -88,8 +88,14 @@ section{
   border-left-width: 3px;
   border-left-style: solid;
 }
-#contact {
+#work {
   top: 210px;
+  background-color: #FE9A2E;
+  border-left-width: 3px;
+  border-left-style: solid;
+}
+#contact {
+  top: 270px;
   background-color: #FE9A2E;
   border-left-width: 3px;
   border-left-style: solid;
@@ -118,6 +124,13 @@ h4{
   padding: 6px 0;
   margin-right: 0px;
   margin-left: -20px;
+  padding-right: 0px;
+}
+.fa-laptop{
+  float: left;
+  padding: 6px 0;
+  margin-right: 0px;
+  margin-left: -22px;
   padding-right: 0px;
 }
 .fa-envelope-o{
@@ -149,6 +162,7 @@ h4{
 }
 .flex-row{
   flex-direction: row;
+  width: 100vw;
 }
 .flex-wrap-reverse{
   flex-wrap: wrap-reverse;
@@ -167,8 +181,9 @@ h4{
 }
 .img-rond{
   overflow: hidden;
-  border-radius: 60px;
+  border-radius: 40px;
   width: 40vh;
+  margin: 10px;
 }
 .img2{
   height: 70vh;
@@ -203,6 +218,23 @@ h4{
 .min-size-small{
   min-width: 280px;
 }
+.img-projet{
+  margin-top: -20px;
+  text-decoration: none;
+}
+.titre-projet{
+  position: relative;
+  text-align: center;
+  top: 55px;
+  background: url("../image/furley_bg.png") center, center;
+  color: #FE9A2E;
+  margin: 0 50px;
+  padding: 10px 0;
+  border-radius: 50px;
+}
+.link-projet:hover, .titre-projet:hover{
+  box-shadow: 5px 5px 5px 5px #000;
+}
 .fa-check{
   margin-left: -30px;
 }
@@ -218,7 +250,7 @@ h4{
   color: #FE9A2E;
   text-shadow: 2px 2px #000;
 }
-@media screen and (max-width :1000px){
+@media screen and (max-width :880px){
   body{
     font-size: 15px;
   }
@@ -243,6 +275,12 @@ h4{
   .min-size-small{
     min-width: 280px;
   }
+  .img-rond{
+    overflow: hidden;
+    border-radius: 40px;
+    width: 30vh;
+    margin: 5px;
+  }
 }
 @media screen and (max-height: 700px){
   body{
@@ -252,7 +290,7 @@ h4{
     padding-left: 2%;
     margin: 0;
     font-family: 'Allura', cursive;
-    font-size: 40px;
+    font-size: 30px;
     color: #000;
   }
   section{
@@ -270,32 +308,30 @@ h4{
     border-radius: 5px 0 0 5px;
     color: #fff;
   }
-  #mySidenav a:hover {
-    right: 0;
-  }
   #accueil {
-    top: 10px;
+    top: 0px;
     background-color: #FE9A2E;
     border-left-width: 0;
-    border-left-style: solid;
   }
   #skill {
-    top: 70px;
+    top: 60px;
     background-color: #FE9A2E;
     border-left-width: 0;
-    border-left-style: solid;
   }
   #xp {
-    top: 130px;
+    top: 120px;
     background-color: #FE9A2E;
     border-left-width: 0;
-    border-left-style: solid;
+  }
+  #work {
+    top: 180px;
+    background-color: #FE9A2E;
+    border-left-width: 0;
   }
   #contact {
-    top: 190px;
+    top: 240px;
     background-color: #FE9A2E;
     border-left-width: 0;
-    border-left-style: solid;
   }
   .fa-angle-up{
     float: left;
@@ -319,6 +355,14 @@ h4{
     margin-top: 3px;
     margin-right: 0px;
     margin-left: -8px;
+    padding-right: 0;
+  }
+  .fa-laptop{
+    float: left;
+    padding: 0;
+    margin-top: 3px;
+    margin-right: 0px;
+    margin-left: -11px;
     padding-right: 0;
   }
   .fa-envelope-o{
@@ -355,6 +399,27 @@ h4{
   .titre{
     text-align: center;
     margin-left: 0px;
+  }
+  .img-rond{
+    overflow: hidden;
+    border-radius: 40px;
+    width: 30vh;
+    margin: 5px;
+  }
+  .img-projet{
+    margin-top: -20px;
+    text-decoration: none;
+    height: 25vh;
+  }
+  .titre-projet{
+    position: relative;
+    text-align: center;
+    top: 30px;
+    background: url("../image/furley_bg.png") center, center;
+    color: #FE9A2E;
+    margin: 0 30px;
+    padding: 5px 0;
+    border-radius: 50px;
   }
   h5{
     font-family: 'Open Sans', cursive;
