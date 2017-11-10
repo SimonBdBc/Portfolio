@@ -4,15 +4,15 @@
   </div>
   <div class="flex-container flex-wrap flex-row">
       <div class="flex-wrap half-size min-size-small">
-        <img class="logo" src="../image/htmlCss.png" >
-        <img class="logo" src="../image/bash.png" >
-        <img class="logo" src="../image/git.png" >
-        <img class="logo" src="../image/bootstrap.png" >
-        <img class="logo" src="../image/jquery.png" >
-        <img class="logo" src="../image/ajax.png" >
-        <img class="logo" src="../image/json.png" >
-        <img class="logo" src="../image/js.png" >
-        <img class="logo" src="../image/php.png" >
+        <img class="logo" src="../image/htmlCss.png" alt="logo">
+        <img class="logo" src="../image/bash.png" alt="logo">
+        <img class="logo" src="../image/git.png" alt="logo">
+        <img class="logo" src="../image/bootstrap.png" alt="logo">
+        <img class="logo" src="../image/jquery.png" alt="logo">
+        <img class="logo" src="../image/ajax.png" alt="logo">
+        <img class="logo" src="../image/json.png" alt="logo">
+        <img class="logo" src="../image/js.png" alt="logo">
+        <img class="logo" src="../image/php.png" alt="logo">
       </div>
       <div class="half-size min-size-small">
         <ul class="list-no-style check">

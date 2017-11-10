@@ -4,18 +4,18 @@
   </div>
   <div class="flex-container flex-wrap flex-row">
     <div class="half-size min-size-small item-center">
-      <a href="#" class="img-projet a-no-style"><h6 class="titre-projet"> Projet </h6><img class="img-rond link-projet" src="image/code2.jpg"></a>
+      <a href="#" class="img-projet a-no-style"><h6 class="titre-projet"> Projet </h6><img class="img-rond-projet link-projet" src="image/code2.jpg"></a>
     </div>
     <div class="half-size min-size-small item-center">
-      <a href="#" class="img-projet a-no-style"><h6 class="titre-projet"> Projet </h6><img class="img-rond link-projet" src="image/code2.jpg"></a>
+      <a href="#" class="img-projet a-no-style"><h6 class="titre-projet"> Projet </h6><img class="img-rond-projet link-projet" src="image/code2.jpg"></a>
     </div>
   </div>
   <div class="flex-container flex-wrap flex-row">
     <div class="half-size min-size-small item-center">
-      <a href="#" class="img-projet a-no-style"><h6 class="titre-projet"> Projet </h6><img class="img-rond link-projet" src="image/code2.jpg"></a>
+      <a href="#" class="img-projet a-no-style"><h6 class="titre-projet"> Projet </h6><img class="img-rond-projet link-projet" src="image/code2.jpg"></a>
     </div>
     <div class="half-size min-size-small item-center">
-      <a href="#" class="img-projet a-no-style"><h6 class="titre-projet"> Projet </h6><img class="img-rond link-projet" src="image/code2.jpg"></a>
+      <a href="#" class="img-projet a-no-style"><h6 class="titre-projet"> Projet </h6><img class="img-rond-projet link-projet" src="image/code2.jpg"></a>
     </div>
   </div>
 </section>

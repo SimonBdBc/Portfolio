@@ -13,7 +13,7 @@
       </ul>
     </div>
     <div class="half-size min-size-small item-center">
-      <img class="img-rond" src="image/portrait.jpg">
+      <img class="img-rond" src="image/portrait.jpg" alt="portrait simon">
     </div>
   </div>
 </section>

@@ -218,6 +218,12 @@ h4{
 .min-size-small{
   min-width: 280px;
 }
+.img-rond-projet{
+  overflow: hidden;
+  border-radius: 40px;
+  width: 40vh;
+  margin: 10px;
+}
 .img-projet{
   margin-top: -20px;
   text-decoration: none;
@@ -253,7 +259,7 @@ h4{
   color: #FE9A2E;
   text-shadow: 2px 2px #000;
 }
-@media screen and (max-width :880px){
+@media screen and (max-width :910px){
   body{
     font-size: 15px;
   }
@@ -283,6 +289,12 @@ h4{
     border-radius: 40px;
     width: 30vh;
     margin: 5px;
+  }
+  .img-rond-projet{
+    overflow: hidden;
+    border-radius: 40px;
+    width: 30vh;
+    margin: 10px;
   }
 }
 @media screen and (max-height: 700px){
