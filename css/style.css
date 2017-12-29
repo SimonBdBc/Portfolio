@@ -1,8 +1,10 @@
 body{
   margin: 0;
-  background: url("../image/furley_bg.png") center, center;
   font-family: 'Open Sans', sans-serif;
   font-size: 25px;
+}
+.background-pattern{
+  background: url("../images/furley_bg.png") center, center;
 }
 header{
   background-color: transparent;
@@ -15,7 +17,7 @@ header{
   font-size: 60px;
   color: #000;
 }
-h1{
+h1.titre-header{
   font-family: 'Amatic SC', cursive;
   display: flex;
   justify-content: center;
@@ -27,6 +29,30 @@ h1{
   color: #fff;
   text-shadow: 2px 2px #000;
   height: 96vh;
+}
+h2.titre-footer{
+  font-family: 'Amatic SC', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  text-align: center;
+  margin: 0;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+.contact-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-footer h5{
+  font-size: 30px;
+  color: #000;
+}
+.contact-footer i{
+  font-size: 80px;
+  color: #000;
 }
 h2{
   font-family: 'Amatic SC', cursive;
@@ -56,7 +82,7 @@ section{
   height: 100vh;
 }
 #mySidenav a {
-  position: absolute;
+  position: absolute; 
   right: -130px;
   transition: 0.5s;
   padding: 10px 20px 10px 40px;
@@ -69,6 +95,11 @@ section{
 }
 #mySidenav a:hover {
   right: 0;
+  transition: 0.5s;
+}
+.fixe{
+  position: fixed;
+  z-index: 2;
 }
 #accueil {
   top: 30px;
@@ -76,13 +107,13 @@ section{
   border-left-width: 3px;
   border-left-style: solid;
 }
-#skill {
+#xp {
   top: 90px;
   background-color: #FE9A2E;
   border-left-width: 3px;
   border-left-style: solid;
 }
-#xp {
+#skill {
   top: 150px;
   background-color: #FE9A2E;
   border-left-width: 3px;
@@ -140,9 +171,6 @@ h4{
   margin-left: -21px;
   padding-right: 0px;
 }
-.fixe{
-  position: fixed;
-}
 .logo{
   height: 7vh;
   margin: 8px;
@@ -168,13 +196,13 @@ h4{
   flex-wrap: wrap-reverse;
 }
 .image-back, nav{
-  background:url("../image/dsc001.jpg")no-repeat center center;
+  background:url("../images/dsc001.jpg")no-repeat center center;
   background-size:cover;
   background-attachment: fixed;
   display: block;
 }
 .image-back-bottom{
-  background:url("../image/dsc001.jpg")no-repeat center center;
+  background:url("../images/dsc001.jpg")no-repeat center center;
   background-size:cover;
   background-attachment: fixed;
   display: block;
@@ -232,7 +260,7 @@ h4{
   position: relative;
   text-align: center;
   top: 55px;
-  background: url("../image/furley_bg.png") center, center;
+  /*background: url("../images/furley_bg.png") center, center;*/
   color: #FE9A2E;
   margin: 0 50px;
   padding: 10px 0;
@@ -259,6 +287,16 @@ h4{
   color: #FE9A2E;
   text-shadow: 2px 2px #000;
 }
+@media screen and (max-width: 1080px){  
+  .contact-footer h5{
+    font-size: 20px;
+    color: #000;
+  }
+  .contact-footer i{
+    font-size: 60px;
+    color: #000;
+  }
+}
 @media screen and (max-width :910px){
   body{
     font-size: 15px;
@@ -275,8 +313,8 @@ h4{
     margin: -40px 0 0 0;
   }
   .logo{
-    height: 3vh;
-    margin: 8px;
+    height: 10vh;
+    margin: 0;
   }
   .half-size{
     width: 50%;
@@ -296,7 +334,155 @@ h4{
     width: 30vh;
     margin: 10px;
   }
+  .contact-footer h5{
+    font-size: 20px;
+    color: #000;
+  }
+  .contact-footer i{
+    font-size: 60px;
+    color: #000;
+  }
 }
+
+/*----------------------*/
+/*-----Slider Skill-----*/
+/*----------------------*/
+
+.slider_logo {
+   width: 80vw;
+   height: 10vh;
+   overflow: hidden;
+   border: 3px solid #000;
+}
+
+.slider_logo ul {
+    /* 4 images donc 4 x 100% */
+   width: 900%;
+   height: 10vh;
+   padding:0; margin:0;
+   list-style: none;
+}
+.slider_logo li {
+   float: left;
+   width: 250px;
+   height: 200px;
+   margin: 0 10px;
+}
+
+/*---------------------*/
+/*-----Slider Work-----*/
+/*---------------------*/
+
+#part3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.but_slide{
+  margin:10px;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 10px 10px;
+  border: 5px solid #FE9A2E;
+  font-size: 20px;
+}
+.but_slide2{
+  margin:10px;
+  background-color: #FE9A2E;
+  color:#fff;
+  padding: 2px 5px;
+  border-radius: 10px 10px;
+  border: 0;
+}
+.but_slide:hover{
+  background-color: #000;
+}
+.but_slide2:hover{
+  color: #000;
+}
+.slider_nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+ .slider_block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width : 80vw;
+  max-height : 80vh;
+ }
+ .slider_conteneur{
+   position : relative;
+   width : 60vw;
+   height : 60vh;
+   background: transparent;
+  
+ }
+ .slider_conteneur li{
+   position : absolute;
+   top : 0px;
+   left : 0px;
+   width : 100%;
+   height: 100%;
+   list-style : none;
+ }
+.image1{
+  background: url(../images/code1.jpg);
+  background-size: 150%;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px;
+}
+.image2{
+  background: url(../images/code2.jpg);
+  background-size: 150%;
+  background-position: center;  
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px;  
+}
+.image3{
+  background: url(../images/code3.jpg);
+  background-size: 150%;
+  background-position: center;  
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px;  
+}
+.image4{
+  background: url(../images/code4.jpg);
+  background-size: 150%;
+  background-position: center;  
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px;  
+}
+.text_slide1, .text_slide2, .text_slide3, .text_slide4{
+  display: none;
+  background-color: #000;
+  width: 200px;
+  height: 200px;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 10px 0px;  
+}
+.h3_slide{
+  margin: 0;
+  padding: 3vh;
+}
+
+/*----------------------*/
+/*-----Media Screen-----*/
+/*----------------------*/
+
 @media screen and (max-height: 700px){
   body{
     font-size: 14px;
@@ -402,8 +588,8 @@ h4{
     height: 100vh;
   }
   .logo{
-    height: 3vh;
-    margin: 8px;
+    height: 10vh;
+    margin: 0;
   }
   h2{
     font-family: 'Amatic SC', cursive;
@@ -430,7 +616,7 @@ h4{
     position: relative;
     text-align: center;
     top: 30px;
-    background: url("../image/furley_bg.png") center, center;
+    /*background: url("../images/furley_bg.png") center, center;*/
     color: #FE9A2E;
     margin: 0 30px;
     padding: 5px 0;
@@ -440,8 +626,17 @@ h4{
     font-family: 'Open Sans', cursive;
     font-size: 15px;
   }
+  .contact-footer h5{
+    font-size: 20px;
+    color: #000;
+  }
+  .contact-footer i{
+    font-size: 60px;
+    color: #000;
+  }
   small{
-    color: #fff;
     font-size: 10px;
   }
 }
+
+

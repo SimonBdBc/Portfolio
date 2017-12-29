@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Scripts javascript : Aperçu</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<br /><p class="tt" >Effet de vitesse</p><br /><br />
+
+<span id="webaddress" style="position:relative; visibility:hidden; font-style:italic; font-weight:bold"> 
+Merci d'utiliser outils-web.com
+</span> 
+
+
+<script language="JavaScript"> 
+if (document.getElementById)
+	{ 
+	if(document.all)
+		widthe = document.body.clientWidth;
+	else
+		widthe = window.innerWidth;
+	document.getElementById("webaddress").style.left=widthe;
+	document.getElementById("webaddress").style.visibility="visible"; 
+	}
+
+function moveit()
+	{ 
+	if (widthe>15) 
+		{
+		document.getElementById("webaddress").style.left=widthe;
+		widthe -= 10;
+		}
+	else{ 
+		document.getElementById("webaddress").style.fontStyle="normal" 
+		document.getElementById("webaddress").style.left=0 
+		clearInterval(moving) 
+		} 
+	} 
+if (document.getElementById) 
+	moving=setInterval("moveit()",1) 
+</script>
+
+</body>
+</html>

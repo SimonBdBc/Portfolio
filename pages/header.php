@@ -14,6 +14,6 @@
   </div>
 </nav>
 <div class="image-back flex-container flex-wrap">
-  <h1>Developpeur Web Junior</h1>
+  <h1 class="titre-header">Developpeur Web Junior</h1>
 </div>
 </header>
