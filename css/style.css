@@ -2,8 +2,6 @@ body{
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 25px;
-}
-.background-pattern{
   background: url("../images/furley_bg.png") center, center;
 }
 header{
