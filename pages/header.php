@@ -15,5 +15,6 @@
 </nav>
 <div class="image-back flex-container flex-wrap">
   <h1 class="titre-header">Developpeur Web Junior</h1>
+  <p>Voici mon portfolio réalisé "from scratch" après une première formation (2mois) de développeur d'applications web chez l'It-Akademy.</p>
 </div>
 </header>

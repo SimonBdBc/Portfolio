@@ -1,7 +1,7 @@
 <footer id="bottom" class="image-back-bottom">
   <section class="flex-container-ext flex-wrap">
     <div class="flex-container flex-wrap flex-row">
-      <div class="flex-wrap half-size min-size-small">  
+      <div class="flex-wrap half-size min-size-small">
         <h2 class="titre-footer">Contact :</h2>
       </div>
       <div class="flex-wrap half-size min-size-small contact-footer">

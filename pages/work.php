@@ -1,13 +1,13 @@
 <section id="part3" class="flex-container flex-wrap section-container">
   <div class="slider-title">
-    <h2>Mes projets :</h2>
+    <h2>Mes réalisations :</h2>
   </div>
 <div class="slider_nav">
 <button class="but_slide" data-action="but1"></button>
 <button class="but_slide" data-action="but2"></button>
 <button class="but_slide" data-action="but3"></button>
 <button class="but_slide" data-action="but4"></button>
-<button class="but_slide2" data-action="but5"><i class="fa fa-repeat" aria-hidden="true"></i>
+<button class="but_slide_auto" data-action="but5"><i class="fa fa-repeat" aria-hidden="true"></i>
 </button>
 </div>
 <div class="slider_block">
