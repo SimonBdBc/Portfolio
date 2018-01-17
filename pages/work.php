@@ -18,7 +18,8 @@
           <h3 class="h3_slide">Mini-jeux</h3>
           Rock Paper Scissors<br>
           <br>Avec :<br>
-          Javascript et jQuery
+          Javascript et jQuery<br>
+          <br>Cliquez !
         </div>
     </div>
   </li>
