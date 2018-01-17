@@ -1,8 +1,12 @@
+html{
+  font-size: 62.5%;
+}
 body{
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 25px;
-  background: url("../images/furley_bg.png") center, center;
+  background: url("../images/ts_tiles.png") center, center;
+  background-color: #e6ecf3;
 }
 header{
   background-color: transparent;
@@ -12,8 +16,16 @@ header{
   padding-left: 2%;
   margin: 0;
   font-family: 'Allura', cursive;
-  font-size: 60px;
-  color: #000;
+  font-size: 6rem;
+  color: #fff;
+}
+.intro{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.5rem;
+  padding-bottom: 5rem;
+  
 }
 h1.titre-header{
   font-family: 'Amatic SC', cursive;
@@ -26,7 +38,7 @@ h1.titre-header{
   width: 100%;
   color: #fff;
   text-shadow: 2px 2px #000;
-  height: 96vh;
+  height: 85vh;
 }
 h2.titre-footer{
   font-family: 'Amatic SC', cursive;
@@ -46,11 +58,11 @@ h2.titre-footer{
 }
 .contact-footer h5{
   font-size: 30px;
-  color: #000;
+  color: #fff;
 }
 .contact-footer i{
   font-size: 80px;
-  color: #000;
+  color: #fff;
 }
 h2{
   font-family: 'Amatic SC', cursive;
@@ -197,13 +209,13 @@ h4{
   align-items: baseline;
 }
 .image-back, nav{
-  background:url("../images/dsc001.jpg")no-repeat center center;
+  background:url("../images/dsc001filter.png")no-repeat center center;
   background-size:cover;
   background-attachment: fixed;
   display: block;
 }
 .image-back-bottom{
-  background:url("../images/dsc001.jpg")no-repeat center center;
+  background:url("../images/dsc001filter.png")no-repeat center center;
   background-size:cover;
   background-attachment: fixed;
   display: block;
@@ -273,7 +285,7 @@ h4{
   margin-left: -30px;
 }
 .fa-github-square, .fa-linkedin-square{
-  color: #fff;
+  color: #000;
   margin-right: 30px;
 }
 .fa-github-square:hover{
@@ -287,11 +299,9 @@ h4{
 @media screen and (max-width: 1080px){
   .contact-footer h5{
     font-size: 20px;
-    color: #000;
   }
   .contact-footer i{
     font-size: 60px;
-    color: #000;
   }
 }
 @media screen and (max-width :910px){
@@ -309,6 +319,7 @@ h4{
   h1{
     margin: -40px 0 0 0;
   }
+  
   .logo{
     height: 10vh;
     margin: 0;
@@ -333,11 +344,9 @@ h4{
   }
   .contact-footer h5{
     font-size: 20px;
-    color: #000;
   }
   .contact-footer i{
     font-size: 60px;
-    color: #000;
   }
 }
 
@@ -380,24 +389,25 @@ h4{
 .but_slide{
   margin:10px;
   background-color: #fff;
-  padding: 5px;
+  padding: 6px;
   border-radius: 10px 10px;
-  border: 5px solid #FE9A2E;
+  border: 5px;
   font-size: 20px;
 }
 .but_slide_auto{
   margin:10px;
-  background-color: #FE9A2E;
+  background-color: transparent;
   color:#fff;
   padding: 2px 5px;
   border-radius: 10px 10px;
   border: 0;
 }
 .but_slide:hover{
-  background-color: #000;
+  background-color: #FE9A2E;
+  padding: 10px;
 }
 .but_slide_auto:hover{
-  color: #000;
+  color: #FE9A2E;
 }
 .slider_nav{
   display: flex;
@@ -429,7 +439,7 @@ h4{
    list-style : none;
  }
 .image1{
-  background: url(../images/code1.jpg);
+  background: url(../images/RPS.png);
   background-size: 150%;
   background-position: center;
   width: 100%;
@@ -483,13 +493,7 @@ h4{
   body{
     font-size: 14px;
   }
-  .name{
-    padding-left: 2%;
-    margin: 0;
-    font-family: 'Allura', cursive;
-    font-size: 30px;
-    color: #000;
-  }
+  
   section{
     margin-right: 16px;
   }
@@ -624,11 +628,9 @@ h4{
   }
   .contact-footer h5{
     font-size: 20px;
-    color: #000;
   }
   .contact-footer i{
     font-size: 60px;
-    color: #000;
   }
   small{
     font-size: 10px;

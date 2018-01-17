@@ -16,7 +16,7 @@
     <div class="image1">
       <div class="text_slide1">
           <h3 class="h3_slide">Mini-jeux</h3>
-          Bientôt en ligne<br>
+          Rock Paper Scissors<br>
           <br>Avec :<br>
           Javascript et jQuery
         </div>

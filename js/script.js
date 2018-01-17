@@ -109,7 +109,7 @@ $(document).ready(function() {
   });
 
   $(".image1").on('click', function() {
-    window.open('./projets/index.html');
+    window.open('./projets/projet1-rps/index.html');
   });
   $(".image2").on('click', function() {
     window.open('');
