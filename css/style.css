@@ -249,6 +249,11 @@ h4{
   padding-left: 10%;
   padding-right: 10%;
 }
+.section-title{
+  margin-bottom: -50px;
+  padding: 0;
+  justify-content: center;
+}
 .half-size{
   width: 50%;
 }

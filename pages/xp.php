@@ -1,7 +1,5 @@
 <section id="part2" class="flex-container flex-wrap section-container">
-  <div class="section-title">
-    <h2>Mon parcours pro Atypique :</h2>
-  </div>
+  <h2 class="section-title">Mon parcours pro Atypique :</h2>
   <div class="flex-container flex-wrap flex-row flex-wrap-reverse">
     <div class="half-size min-size-small">
       <ul>
