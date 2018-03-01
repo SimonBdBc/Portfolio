@@ -89,7 +89,7 @@ small{
   font-size: 15px;
 }
 section{
-  height: 100vh;
+  min-height: 100vh;
 }
 #mySidenav a {
   position: absolute;
@@ -380,114 +380,26 @@ h4{
 }
 
 /*---------------------*/
-/*-----Slider Work-----*/
+/*-----Part Work-----*/
 /*---------------------*/
 
-#part3{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
-.but_slide{
-  margin:10px;
+figure {
   background-color: #fff;
-  padding: 6px;
-  border-radius: 10px 10px;
-  border: 5px;
-  font-size: 20px;
+  box-shadow: 0 2px 3px 0.5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin: 2vw;
+  padding: 1vw;
+  width: 250px;
+  max-height: 300px;
 }
-.but_slide_auto{
-  margin:10px;
-  background-color: transparent;
-  color:#fff;
-  padding: 2px 5px;
-  border-radius: 10px 10px;
-  border: 0;
+figure figcaption {
+  padding: 1vw 0;
+  font-size: 12px;
 }
-.but_slide:hover{
-  background-color: #FE9A2E;
-  padding: 10px;
-}
-.but_slide_auto:hover{
-  color: #FE9A2E;
-}
-.slider_nav{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 0px;
-}
- .slider_block{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width : 80vw;
-  max-height : 80vh;
- }
- .slider_conteneur{
-   position : relative;
-   width : 60vw;
-   height : 60vh;
-   background: transparent;
-
- }
- .slider_conteneur li{
-   position : absolute;
-   top : 0px;
-   left : 0px;
-   width : 100%;
-   height: 100%;
-   list-style : none;
- }
-.image1{
-  background: url(../images/RPS.png);
-  background-size: 150%;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px 10px;
-}
-.image2{
-  background: url(../images/code2.jpg);
-  background-size: 150%;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px 10px;
-}
-.image3{
-  background: url(../images/code3.jpg);
-  background-size: 150%;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px 10px;
-}
-.image4{
-  background: url(../images/code4.jpg);
-  background-size: 150%;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px 10px;
-}
-.text_slide1, .text_slide2, .text_slide3, .text_slide4{
-  display: none;
-  background-color: #000;
-  width: 200px;
-  height: 200px;
-  color: #fff;
-  text-align: center;
-  font-size: 15px;
-  border-radius: 10px 0px;
-}
-.h3_slide{
-  margin: 0;
-  padding: 3vh;
+.img-work {
+  width: 250px;
+  border: 1px solid wheat;
+  box-shadow: 0 2px 3px 0.5px rgba(0, 0, 0, 0.3);
 }
 
 /*----------------------*/

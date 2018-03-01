@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  background: url("../img/ts_tiles.png") center, center;
+  background-color: #e6ecf3;
+}
+h2 {
+  font-family: "Amatic SC", cursive;
+  margin-top: 0;
+}
+section {
+  height: 100vh;
+}
+
+/*---------------------*/
+/*-----Slider Work-----*/
+/*---------------------*/
+
+#slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.but_slide {
+  margin: 10px;
+  background-color: #fff;
+  padding: 6px;
+  border-radius: 10px 10px;
+  border: 5px;
+  font-size: 20px;
+}
+.but_slide_auto {
+  margin: 10px;
+  background-color: transparent;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 10px 10px;
+  border: 0;
+}
+.but_slide:hover {
+  background-color: #fe9a2e;
+  padding: 10px;
+}
+.but_slide_auto:hover {
+  color: #fe9a2e;
+}
+.but_slide-select {
+  background-color: #fe9a2e;
+  padding: 10px;
+}
+.but_slide_auto-select {
+  color: #fe9a2e;
+}
+.slider_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.slider_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80vw;
+  max-height: 80vh;
+}
+.slider_conteneur {
+  position: relative;
+  width: 60vw;
+  height: 60vh;
+  background: transparent;
+}
+.slider_conteneur li {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  list-style: none;
+}
+.image1 {
+  background: url(../img/code1.jpg);
+  background-size: 200%;
+  background-position: center;
+  width: 100%;
+  height: 80%;
+  border-radius: 10px 10px;
+}
+.image2 {
+  background: url(../img/code2.jpg);
+  background-size: 200%;
+  background-position: center;
+  width: 100%;
+  height: 80%;
+  border-radius: 10px 10px;
+}
+.image3 {
+  background: url(../img/code3.jpg);
+  background-size: 200%;
+  background-position: center;
+  width: 100%;
+  height: 80%;
+  border-radius: 10px 10px;
+}
+.image4 {
+  background: url(../img/code4.jpg);
+  background-size: 200%;
+  background-position: center;
+  width: 100%;
+  height: 80%;
+  border-radius: 10px 10px;
+}
+.text_slide1,
+.text_slide2,
+.text_slide3,
+.text_slide4 {
+  display: none;
+  background-color: #000;
+  width: 230px;
+  height: 230px;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 10px 0px;
+}
+.h3_slide {
+  margin: 0;
+  padding: 3vh;
+}
+
+/*----------------------*/
+/*-----Media Screen-----*/
+/*----------------------*/
+
+@media screen and (max-width: 910px) {
+  body {
+    font-size: 15px;
+  }
+}
