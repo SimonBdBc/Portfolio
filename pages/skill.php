@@ -43,6 +43,7 @@
         <li><i class="fa fa-check" aria-hidden="true"></i> Languages Javascript et Php</li>
         <li><i class="fa fa-check" aria-hidden="true"></i> Bases de données MySQL et mongoDB</li>
         <li><i class="fa fa-check" aria-hidden="true"></i> Frameworks Laravel et ExpressJS</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> Framework Ionic 3 avec Angular 4</li>        
       </ul>
     </div>
     <div class="half-size min-size-small">

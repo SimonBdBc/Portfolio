@@ -3,11 +3,11 @@
   <div class="flex-container flex-wrap flex-row flex-wrap-reverse">
     <div class="half-size min-size-small">
       <ul>
-        <li>Formation Développeur d'Applications Web</li>
+        <li>Formation Développeur d'Applications Web et Mobile chez it-Akademy</li>
         <li>Auto-entrepreneur (Saïan et Compagnie)</li>
         <li>Militaire - Fusier Commando et Maître Chien dans l'Armée de l'Air</li>
         <li>Educateur et Comportementaliste Canin</li>
-        <li>Electicien dans le Batiment</li>
+        <li>Electricien dans le Batiment</li>
         <li>BAC Pro Electrotechnique</li>
       </ul>
     </div>
