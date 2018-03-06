@@ -1,6 +1,6 @@
 {
-  "name": "seriesTvApp",
-  "short_name": "seriesTvApp",
+  "name": "Séries TV",
+  "short_name": "Séries TV",
   "description": "Description of your app from template",
   "start_url": "index.html",
   "scope": "index.html",

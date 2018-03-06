@@ -28086,6 +28086,33 @@ page-home .stat-3 {
   text-shadow: 0 0 1px #f53d3d, 0 0 2px #f53d3d, 0 0 4px #f53d3d, 0 0 6px #f53d3d, 0 0 8px #f53d3d;
 }
 
+page-search-serie ion-content {
+  background: url(../assets/imgs/bg.png) no-repeat center fixed;
+  background-size: cover;
+}
+
+page-search-serie ion-content:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(#ffa228));
+  background-image: linear-gradient(to bottom, black, #ffa228);
+  opacity: 0.3;
+}
+
+page-search-serie .size {
+  max-width: 400px;
+}
+
+page-search-serie .center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 page-view-serie ion-content {
   background: url(../assets/imgs/bg.png) no-repeat center fixed;
   background-size: cover;

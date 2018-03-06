@@ -1,14 +1,14 @@
 webpackJsonp([1],{
 
-/***/ 402:
+/***/ 408:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EditSeriePageModule", function() { return EditSeriePageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SearchSeriePageModule", function() { return SearchSeriePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__edit_serie__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__search_serie__ = __webpack_require__(103);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var EditSeriePageModule = (function () {
-    function EditSeriePageModule() {
+var SearchSeriePageModule = (function () {
+    function SearchSeriePageModule() {
     }
-    EditSeriePageModule = __decorate([
+    SearchSeriePageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__edit_serie__["a" /* EditSeriePage */],
+                __WEBPACK_IMPORTED_MODULE_2__search_serie__["a" /* SearchSeriePage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__edit_serie__["a" /* EditSeriePage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__search_serie__["a" /* SearchSeriePage */]),
             ],
         })
-    ], EditSeriePageModule);
-    return EditSeriePageModule;
+    ], SearchSeriePageModule);
+    return SearchSeriePageModule;
 }());
 
-//# sourceMappingURL=edit-serie.module.js.map
+//# sourceMappingURL=search-serie.module.js.map
 
 /***/ })
 
